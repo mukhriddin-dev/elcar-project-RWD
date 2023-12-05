@@ -5,9 +5,12 @@
     --color-whiteblue:#93B1EB;
     --text-color: #BABEC4;
     --text-color-light: #888B91;
+    --body-color:#0A0A0B;
+    --main-font:'Exo', sans-serif;
     --desktop-h1: 36px;
     --mobile-h1: 24px;
     --text-small:14px;
+
 }
 
 

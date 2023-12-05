@@ -8,14 +8,77 @@
             href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
         />
-        <link rel="icon" href="./public/favicon.svg">
+        <link rel="icon" href="./public/favicon.svg" />
+        <!-- main  css -->
+        <link rel="stylesheet" href="./style.css" />
         <title>Elcar</title>
     </head>
     <body>
+        <!-- ------------- HEADER SECTION ------------ -->
 
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <a href="" class="nav__logo">
+                        <img src="./public/logo.svg" alt="logo" />
+                    </a>
+                    <ul class="nav__list">
+                        <li class="nav__list--item"><a href="" class="active">Home</a></li>
+                        <li class="nav__list--item"><a href="">About</a></li>
+                        <li class="nav__list--item"><a href="">Popular</a></li>
+                        <li class="nav__list--item"><a href="">Featured</a></li>
+                    </ul>
+                    <span class="nav__btn">
+                        <img src="./assets/images/menu.svg" alt="menu" />
+                    </span>
+                </nav>
+            </div>
+        </header>
 
+        <!-- ------------- HEADER SECTION ------------ -->
 
+        <main>
+            <section id="intro">
+                <div class="container">
+                    <div class="intro">
+                        <h1 class="intro__title">Choose The Best Car</h1>
+                        <p class="intro__description">Porsche Mission E</p>
+                        <p class="intro__text">
+                            <img src="./assets/images/flashlight-fill-blue.svg" alt="flash" /> <span>Electric car</span>
+                        </p>
 
-        
+                        <img  src="./assets/images/car-imntro.png" alt="intro cars" class="intro__img" />
+
+                        <ul class="intro__list">
+                            <li class="intro__list--item">
+                                <span>
+                                    <img src="./assets/images/temp-cold-line.svg" alt="temp-cold-line" />
+                                </span>
+                                <p>24°</p>
+                                <small>TEMPERATURE</small>
+                            </li>
+                            <li class="intro__list--item">
+                                <span> km </span>
+                                <p>873</p>
+                                <small>MILEAGE</small>
+                            </li>
+                            <li class="intro__list--item">
+                                <span>
+                                    <img src="./assets/images/flashlight-fill.svg" alt="flashlight-fill" />
+                                </span>
+                                <p>94%</p>
+                                <small>BATTERY</small>
+                            </li>
+                        </ul>
+
+                        <div class="circle">
+                            <div>
+                                <p>Start</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
